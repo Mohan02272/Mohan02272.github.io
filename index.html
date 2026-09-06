@@ -6,10 +6,10 @@
 
     <title>Rashedul Islam Mohan | Server & Network Engineer</title>
 
-    <meta name="description"
-          content="Rashedul Islam Mohan - Server & Network Engineer specializing in IT Infrastructure, Linux, Windows Server, Networking, Zabbix, Docker, Firewalls and DevOps.">
+    <meta name="description" content="Rashedul Islam Mohan - Server & Network Engineer | IT Operations">
 
     <style>
+
         * {
             margin: 0;
             padding: 0;
@@ -38,15 +38,14 @@
             margin: auto;
         }
 
-        /* NAVBAR */
+        /* ================= NAVBAR ================= */
 
         nav {
             position: sticky;
             top: 0;
             z-index: 1000;
-            background: rgba(11, 17, 32, 0.95);
+            background: rgba(11, 17, 32, 0.96);
             border-bottom: 1px solid #1f2937;
-            backdrop-filter: blur(10px);
         }
 
         .nav-container {
@@ -64,7 +63,7 @@
 
         .nav-links {
             display: flex;
-            gap: 28px;
+            gap: 25px;
             list-style: none;
         }
 
@@ -78,7 +77,7 @@
             color: #38bdf8;
         }
 
-        /* HERO */
+        /* ================= HERO ================= */
 
         .hero {
             min-height: 90vh;
@@ -107,7 +106,7 @@
         .hero h1 {
             font-size: 58px;
             line-height: 1.1;
-            margin-bottom: 18px;
+            margin-bottom: 15px;
         }
 
         .hero h1 span {
@@ -116,7 +115,7 @@
 
         .hero h2 {
             color: #94a3b8;
-            font-size: 24px;
+            font-size: 23px;
             font-weight: normal;
             margin-bottom: 20px;
         }
@@ -125,6 +124,20 @@
             color: #94a3b8;
             max-width: 680px;
             font-size: 17px;
+        }
+
+        /* ================= PROFILE PHOTO ================= */
+
+        .profile-photo {
+            width: 155px;
+            height: 155px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #38bdf8;
+            padding: 4px;
+            background: #0f172a;
+            margin-bottom: 25px;
+            display: block;
         }
 
         .buttons {
@@ -148,16 +161,12 @@
             border-color: #38bdf8;
         }
 
-        .btn:hover {
-            transform: translateY(-2px);
-        }
-
         .btn-secondary:hover {
             border-color: #38bdf8;
             color: #38bdf8;
         }
 
-        /* TERMINAL */
+        /* ================= TERMINAL ================= */
 
         .terminal {
             background: #020617;
@@ -182,7 +191,6 @@
 
         .terminal-body p {
             margin-bottom: 12px;
-            color: #cbd5e1;
         }
 
         .command {
@@ -193,7 +201,7 @@
             color: #4ade80;
         }
 
-        /* SECTIONS */
+        /* ================= SECTIONS ================= */
 
         section {
             padding: 90px 0;
@@ -213,7 +221,7 @@
             color: #64748b;
         }
 
-        /* ABOUT */
+        /* ================= ABOUT ================= */
 
         .about-grid {
             display: grid;
@@ -250,7 +258,7 @@
             font-size: 13px;
         }
 
-        /* EXPERIENCE */
+        /* ================= EXPERIENCE ================= */
 
         .timeline {
             border-left: 2px solid #1e3a5f;
@@ -294,7 +302,7 @@
             color: #94a3b8;
         }
 
-        /* PROJECTS */
+        /* ================= PROJECTS ================= */
 
         .projects {
             display: grid;
@@ -316,7 +324,6 @@
         }
 
         .project h3 {
-            color: #f8fafc;
             margin-bottom: 10px;
         }
 
@@ -340,7 +347,7 @@
             font-size: 12px;
         }
 
-        /* SKILLS */
+        /* ================= SKILLS ================= */
 
         .skills {
             display: grid;
@@ -365,7 +372,7 @@
             font-size: 14px;
         }
 
-        /* EDUCATION */
+        /* ================= EDUCATION ================= */
 
         .education-card {
             background: #111827;
@@ -376,14 +383,14 @@
         }
 
         .education-card h3 {
-            color: #f8fafc;
+            margin-bottom: 5px;
         }
 
         .education-card p {
             color: #94a3b8;
         }
 
-        /* CONTACT */
+        /* ================= CONTACT ================= */
 
         .contact-box {
             text-align: center;
@@ -407,11 +414,11 @@
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 20px;
+            gap: 25px;
             color: #38bdf8;
         }
 
-        /* FOOTER */
+        /* ================= FOOTER ================= */
 
         footer {
             border-top: 1px solid #1f2937;
@@ -421,7 +428,7 @@
             font-size: 14px;
         }
 
-        /* MOBILE */
+        /* ================= MOBILE ================= */
 
         @media (max-width: 850px) {
 
@@ -450,73 +457,110 @@
             .skills {
                 grid-template-columns: 1fr;
             }
+
+            .profile-photo {
+                width: 135px;
+                height: 135px;
+            }
         }
+
     </style>
 </head>
 
 <body>
 
-<!-- NAVBAR -->
+
+<!-- ================= NAVBAR ================= -->
 
 <nav>
+
     <div class="container nav-container">
 
-        <div class="logo">RIM</div>
+        <div class="logo">
+            RIM
+        </div>
 
         <ul class="nav-links">
+
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#contact">Contact</a></li>
+
         </ul>
 
     </div>
+
 </nav>
 
 
-<!-- HERO -->
+<!-- ================= HERO ================= -->
 
 <section class="hero">
 
     <div class="container hero-grid">
 
+
         <div>
 
-            <span class="tag">SERVER & NETWORK ENGINEER</span>
+            <!-- PROFILE PHOTO -->
+
+            <img
+                src="profile.jpg.png"
+                alt="Rashedul Islam Mohan"
+                class="profile-photo"
+            >
+
+
+            <span class="tag">
+                SERVER & NETWORK ENGINEER
+            </span>
+
 
             <h1>
                 Rashedul Islam <span>Mohan</span>
             </h1>
 
+
             <h2>
                 Server & Network Engineer | IT Operations
             </h2>
 
+
             <p>
                 Server & Network Engineer with hands-on experience in
                 IT infrastructure operations, production environment support,
-                server administration, network monitoring, incident troubleshooting,
-                automation and service availability.
+                server administration, network monitoring, incident
+                troubleshooting, automation and service availability.
             </p>
+
 
             <div class="buttons">
 
-                <a class="btn btn-primary"
-                   href="mailto:rashedulislammohan@gmail.com">
+                <a
+                    class="btn btn-primary"
+                    href="mailto:rashedulislammohan@gmail.com"
+                >
                     Contact Me
                 </a>
 
-                <a class="btn btn-secondary"
-                   href="https://www.linkedin.com/in/rashedul-islam-mohan/"
-                   target="_blank">
+
+                <a
+                    class="btn btn-secondary"
+                    href="https://www.linkedin.com/in/rashedul-islam-mohan/"
+                    target="_blank"
+                >
                     LinkedIn
                 </a>
 
-                <a class="btn btn-secondary"
-                   href="https://github.com/Mohan02272"
-                   target="_blank">
+
+                <a
+                    class="btn btn-secondary"
+                    href="https://github.com/Mohan02272"
+                    target="_blank"
+                >
                     GitHub
                 </a>
 
@@ -524,6 +568,8 @@
 
         </div>
 
+
+        <!-- TERMINAL -->
 
         <div class="terminal">
 
@@ -541,6 +587,7 @@
                     rashedul-islam-mohan
                 </p>
 
+
                 <p>
                     <span class="command">$ role</span>
                 </p>
@@ -549,24 +596,45 @@
                     Server & Network Engineer
                 </p>
 
-                <p>
-                    <span class="command">$ uptime</span>
-                </p>
 
-                <p class="success">
-                    Production mindset: 24/7
+                <p>
+                    <span class="command">$ experience</span>
                 </p>
 
                 <p>
-                    <span class="command">$ skills</span>
+                    3+ Years
+                </p>
+
+
+                <p>
+                    <span class="command">$ infrastructure</span>
                 </p>
 
                 <p>
                     Linux | Windows | Cisco | MikroTik
                 </p>
 
+
                 <p>
-                    Zabbix | Docker | Proxmox | Firewalls
+                    <span class="command">$ monitoring</span>
+                </p>
+
+                <p>
+                    Zabbix | SNMP
+                </p>
+
+
+                <p>
+                    <span class="command">$ virtualization</span>
+                </p>
+
+                <p>
+                    KVM | Proxmox | Docker
+                </p>
+
+
+                <p class="success">
+                    Production mindset: 24/7
                 </p>
 
             </div>
@@ -578,7 +646,7 @@
 </section>
 
 
-<!-- ABOUT -->
+<!-- ================= ABOUT ================= -->
 
 <section id="about">
 
@@ -597,6 +665,7 @@
 
         <div class="about-grid">
 
+
             <div class="about-text">
 
                 <p>
@@ -605,15 +674,16 @@
                 </p>
 
                 <p>
-                    My experience includes Linux and Windows Server administration,
-                    Active Directory, network infrastructure, firewall administration,
-                    monitoring, virtualization, storage and production troubleshooting.
+                    My experience includes Linux and Windows Server
+                    administration, Active Directory, network infrastructure,
+                    firewall administration, monitoring, virtualization,
+                    storage and production troubleshooting.
                 </p>
 
                 <p>
-                    I enjoy investigating infrastructure problems, analyzing logs,
-                    improving monitoring visibility and automating repetitive
-                    operational tasks.
+                    I enjoy investigating infrastructure problems,
+                    analyzing logs, improving monitoring visibility and
+                    automating repetitive operational tasks.
                 </p>
 
             </div>
@@ -650,7 +720,7 @@
 </section>
 
 
-<!-- EXPERIENCE -->
+<!-- ================= EXPERIENCE ================= -->
 
 <section id="experience">
 
@@ -674,7 +744,9 @@
 
             <div class="experience">
 
-                <h3>Executive – Information Technology</h3>
+                <h3>
+                    Executive – Information Technology
+                </h3>
 
                 <div class="company">
                     BRAC EPL STOCK BROKERAGE LTD.
@@ -726,7 +798,9 @@
 
             <div class="experience">
 
-                <h3>System Engineer</h3>
+                <h3>
+                    System Engineer
+                </h3>
 
                 <div class="company">
                     INTERCLOUD LIMITED
@@ -778,7 +852,7 @@
 </section>
 
 
-<!-- PROJECTS -->
+<!-- ================= PROJECTS ================= -->
 
 <section id="projects">
 
@@ -800,7 +874,9 @@
 
             <div class="project">
 
-                <h3>Enterprise Infrastructure Monitoring</h3>
+                <h3>
+                    Enterprise Infrastructure Monitoring
+                </h3>
 
                 <p>
                     Deployed and configured Zabbix Server on Ubuntu
@@ -824,7 +900,9 @@
 
             <div class="project">
 
-                <h3>SSL Certificate Monitoring & Automation</h3>
+                <h3>
+                    SSL Certificate Monitoring & Automation
+                </h3>
 
                 <p>
                     Developed PowerShell-based SSL/TLS certificate
@@ -846,7 +924,9 @@
 
             <div class="project">
 
-                <h3>Container & Object Storage</h3>
+                <h3>
+                    Container & Object Storage
+                </h3>
 
                 <p>
                     Deployed MinIO on Ubuntu using Docker with
@@ -868,7 +948,9 @@
 
             <div class="project">
 
-                <h3>Infrastructure & Network Operations</h3>
+                <h3>
+                    Infrastructure & Network Operations
+                </h3>
 
                 <p>
                     Hands-on infrastructure operations involving
@@ -889,7 +971,6 @@
 
             </div>
 
-
         </div>
 
     </div>
@@ -897,7 +978,7 @@
 </section>
 
 
-<!-- SKILLS -->
+<!-- ================= SKILLS ================= -->
 
 <section id="skills">
 
@@ -918,89 +999,139 @@
 
 
             <div class="skill">
-                <h3>Operating Systems</h3>
+
+                <h3>
+                    Operating Systems
+                </h3>
+
                 <p>
                     Linux, Ubuntu, RHEL, Windows Server
                 </p>
+
             </div>
 
 
             <div class="skill">
-                <h3>Server & Infrastructure</h3>
+
+                <h3>
+                    Server & Infrastructure
+                </h3>
+
                 <p>
                     Server Administration, VM Provisioning,
                     System Configuration, Performance Analysis,
                     High Availability
                 </p>
+
             </div>
 
 
             <div class="skill">
-                <h3>Virtualization & Containers</h3>
+
+                <h3>
+                    Virtualization & Containers
+                </h3>
+
                 <p>
                     KVM, Proxmox, Docker, Kubernetes
                 </p>
+
             </div>
 
 
             <div class="skill">
-                <h3>Monitoring</h3>
+
+                <h3>
+                    Monitoring
+                </h3>
+
                 <p>
                     Zabbix, SNMP, Infrastructure Monitoring,
                     Alerting, Log Analysis
                 </p>
+
             </div>
 
 
             <div class="skill">
-                <h3>Networking</h3>
+
+                <h3>
+                    Networking
+                </h3>
+
                 <p>
                     TCP/IP, DNS, DHCP, Routing, Switching,
                     VPN, Cisco, MikroTik
                 </p>
+
             </div>
 
 
             <div class="skill">
-                <h3>Security</h3>
+
+                <h3>
+                    Security
+                </h3>
+
                 <p>
                     FortiGate, Palo Alto, Firewall Administration,
                     SSL/TLS, System Hardening
                 </p>
+
             </div>
 
 
             <div class="skill">
-                <h3>Storage & Backup</h3>
+
+                <h3>
+                    Storage & Backup
+                </h3>
+
                 <p>
                     LVM, Storage Management, Backup & Restore,
                     Capacity Monitoring
                 </p>
+
             </div>
 
 
             <div class="skill">
-                <h3>Automation & Scripting</h3>
+
+                <h3>
+                    Automation & Scripting
+                </h3>
+
                 <p>
                     PowerShell, Bash, Python
                 </p>
+
             </div>
 
 
             <div class="skill">
-                <h3>Application & Services</h3>
+
+                <h3>
+                    Application & Services
+                </h3>
+
                 <p>
                     Apache, MinIO, SMTP, Active Directory
                 </p>
+
             </div>
 
 
             <div class="skill">
-                <h3>DevOps</h3>
+
+                <h3>
+                    DevOps
+                </h3>
+
                 <p>
                     Git, CI/CD Concepts, Containerization,
                     Infrastructure Automation
                 </p>
+
             </div>
 
         </div>
@@ -1010,7 +1141,7 @@
 </section>
 
 
-<!-- EDUCATION -->
+<!-- ================= EDUCATION ================= -->
 
 <section id="education">
 
@@ -1018,7 +1149,9 @@
 
         <div class="section-title">
 
-            <h2>Education</h2>
+            <h2>
+                Education
+            </h2>
 
         </div>
 
@@ -1061,7 +1194,7 @@
 </section>
 
 
-<!-- CONTACT -->
+<!-- ================= CONTACT ================= -->
 
 <section id="contact">
 
@@ -1069,7 +1202,9 @@
 
         <div class="contact-box">
 
-            <h2>Let's Connect</h2>
+            <h2>
+                Let's Connect
+            </h2>
 
             <p>
                 Interested in infrastructure, networking,
@@ -1088,13 +1223,17 @@
                     Phone
                 </a>
 
-                <a href="https://www.linkedin.com/in/rashedul-islam-mohan/"
-                   target="_blank">
+                <a
+                    href="https://www.linkedin.com/in/rashedul-islam-mohan/"
+                    target="_blank"
+                >
                     LinkedIn
                 </a>
 
-                <a href="https://github.com/Mohan02272"
-                   target="_blank">
+                <a
+                    href="https://github.com/Mohan02272"
+                    target="_blank"
+                >
                     GitHub
                 </a>
 
@@ -1107,7 +1246,7 @@
 </section>
 
 
-<!-- FOOTER -->
+<!-- ================= FOOTER ================= -->
 
 <footer>
 
